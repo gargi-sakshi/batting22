@@ -1,0 +1,25 @@
+main.inner_pages_custom {
+    padding: 60px 0;
+}
+
+.contact_page-hero_13 {
+    padding: 135px 0 160px;
+}
+
+.contact-title span::before {
+    margin: 0 4px 4px 0;
+}
+.contact-title span::after {
+    margin: 0 0 4px 4px;
+}
+.contact-title span::before, .contact-title span::after {
+    content: '';
+    width: 33px;
+    height: 2px;
+    background: hsl(var(--color-primary-light));
+    display: inline-block;
+}
+
+.submit-button {
+    padding: 10px 24px;
+}

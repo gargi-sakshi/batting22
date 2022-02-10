@@ -1,0 +1,24 @@
+
+main.inner_pages_custom {
+    padding: 60px 0;
+}
+
+.privacy_policy-hero-13 {
+    padding: 135px 0 160px;
+}
+
+
+.privacy-title span::before {
+    margin: 0 4px 4px 0;
+}
+.privacy-title span::after {
+    margin: 0 0 4px 4px;
+}
+.privacy-title span::before, .privacy-title span::after {
+    content: '';
+    width: 33px;
+    height: 2px;
+    background: hsl(var(--color-primary-light));
+    display: inline-block;
+}
+

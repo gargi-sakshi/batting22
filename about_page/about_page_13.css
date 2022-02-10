@@ -1,0 +1,56 @@
+
+main.inner_pages_custom {
+    padding: 60px 0;
+}
+
+
+.about-hero_13 {
+    padding: 135px 0 160px;
+}
+
+@media (max-width: 1023px){
+.comman-heading h2 {
+    font-size: 34px!important;
+}
+}
+
+@media (max-width: 1023px){
+img.lisensing-img {
+    max-width: 300px;
+}
+}    
+
+  .about-title span::before {
+    margin: 0 4px 4px 0;
+}
+.about-title span::after {
+    margin: 0 0 4px 4px;
+}
+.about-title span::before, .about-title span::after {
+    content: '';
+    width: 33px;
+    height: 2px;
+    background: hsl(var(--color-primary-light));
+    display: inline-block;
+}
+
+.about_page_13 .icon-box span {
+    color: hsl(var(--color-white));
+    background: linear-gradient(45deg, hsl(var(--color-primary) / 100%) 0%, hsl(var(--color-secondary) / 100%) 100%);
+    transform: scale(1.05);
+    border: 2px solid transparent;
+    padding: 20px;
+    border-radius: 7px;
+    box-shadow: 0px 4px 30px -6px hsl(var(--color-primary-light));
+}
+.about_page_13 .icon-box span:hover {
+    border: 2px solid hsl(var(--color-primary));
+    border-radius: 7px;
+    padding: 20px;
+    background-color: hsl(var(--color-white));
+    transition: 0.03s;
+    box-shadow: 0px 2px 20px -6px hsl(var(--color-primary-light));
+}
+
+
+

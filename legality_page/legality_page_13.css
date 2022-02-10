@@ -1,0 +1,27 @@
+
+main.inner_pages_custom {
+    padding: 60px 0;
+}
+
+.legality_page_11 .heading-color-sec {
+    color: hsl(var(--color-secondary-dark));
+}
+
+
+.legality_page-hero-13 {
+    padding: 135px 0 160px;
+}
+
+.legality-title span::before {
+    margin: 0 4px 4px 0;
+}
+.legality-title span::after {
+    margin: 0 0 4px 4px;
+}
+.legality-title span::before, .legality-title span::after {
+    content: '';
+    width: 33px;
+    height: 2px;
+    background: hsl(var(--color-primary-light));
+    display: inline-block;
+}

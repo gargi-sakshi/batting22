@@ -1,0 +1,27 @@
+
+
+main.inner_pages_custom {
+    padding: 60px 0;
+}
+.fairplay_page_11 .heading-color-sec {
+    color: hsl(var(--color-secondary-dark));
+}
+
+
+.fairplay-page-hero-13 {
+    padding: 135px 0 160px;
+}
+
+.fairplay_page_13 span::before {
+    margin: 0 4px 4px 0;
+}
+.fairplay_page_13 span::after {
+    margin: 0 0 4px 4px;
+}
+.fair-title span::before, .fair-title span::after {
+    content: '';
+    width: 50px;
+    height: 2px;
+    background: #3498db;
+    display: inline-block;
+}

@@ -1,0 +1,41 @@
+
+.how-to-play_13 {
+  padding: 60px 0;
+  border-bottom: 1px solid hsl(var(--color-white));
+  background: linear-gradient(to bottom, hsl(var(--color-primary) / 70%) 0%, hsl(var(--color-secondary) / 60%) 100%), var(--how-to-play-bg-banner);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+}
+
+.how-to-play_13 h5.card-title {
+  text-shadow: 0px 1px hsl(var(--color-primary)); 
+}
+
+
+.how-to-play_13 .card .card-img-top i {
+    padding: 17px;
+    border-radius: 5px;
+    color: hsl(var(--color-white));
+    background: hsl(var(--color-primary));
+    transition: all .3s;
+}
+.how-to-play_13 .card.bg-first {
+  border-radius: 20px;
+  transition: all .3s;
+  background-color: hsl(var(--color-white));
+}
+.how-to-play_13 .card.bg-first:hover {
+  transform: scale(1.05);
+}
+
+
+.how-to-play_13 .card .card-body a {
+    left: 0;
+    right: 0;
+    max-width: max-content;
+    margin: 0 auto;
+    position: absolute;
+}
+

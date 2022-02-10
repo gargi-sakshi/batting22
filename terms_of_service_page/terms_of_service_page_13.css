@@ -1,0 +1,27 @@
+
+.terms_of_services_page .heading-term-conditions {
+    color: hsl(var(--color-primary));
+}
+
+
+.term-cond-hero-13 {
+    padding: 135px 0 160px;
+}
+
+.term-title span::before {
+    margin: 0 4px 4px 0;
+}
+.term-title span::after {
+    margin: 0 0 4px 4px;
+}
+.term-title span::before, .term-title span::after {
+    content: '';
+    width: 33px;
+    height: 2px;
+    background: hsl(var(--color-primary-light));
+    display: inline-block;
+}
+
+main.inner_pages_custom {
+    padding: 60px 0;
+}
